@@ -153,6 +153,6 @@ BEGIN
 
 END$$
 
-DELIMITER ;
+CALL createOrganisationStructure()SS
 
-CALL createOrganisationStructure();
+DELIMITER ;
